@@ -10,7 +10,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('assets/inter-v18-latin-600.woff2') format('woff2');
+  src: url('assets/fonts/inter-v18-latin-600.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -18,7 +18,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('assets/inter-v18-latin-700.woff2') format('woff2');
+  src: url('assets/fonts/inter-v18-latin-700.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -86,7 +86,7 @@ h1 {
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.875rem; /* slightly smaller */
+  font-size: 0.875rem;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
