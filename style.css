@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/inter-v18-latin-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('assets/inter-v18-latin-600.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/inter-v18-latin-700.woff2') format('woff2');
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+  color: #1c1e21;
+  text-align: center;
+}
+
+header {
+  background: white;
+  padding: 2rem 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.avatar-frame {
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #fcefdc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.avatar-cropped {
+  width: 120%; /* scale it up a bit */
+  position: absolute;
+  top: -10px; /* shift upwards */
+  left: -10%;
+}
+
+h1 {
+  margin: 1rem 0 0.2rem;
+  font-size: 2rem;
+}
+
+.title {
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #005288;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem; /* slightly smaller */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn i {
+  font-size: 1rem;
+}
+
+.social-buttons {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn:hover {
+  background-color: #003e5c;
+  transform: translateY(-1px);
+}
+
+.btn.email {
+  background-color: #6c757d; /* gray */
+}
+
+.btn.email:hover {
+  background-color: #5a6268;
+}
+
+.btn.cv {
+  background-color: #17a2b8; /* teal blue */
+}
+
+.btn.cv:hover {
+  background-color: #117a8b;
+}
+
+.btn.github {
+  background-color: #24292e;
+}
+
+.btn.github:hover {
+  background-color: #1b1f23;
+}
+
+.btn.linkedin {
+  background-color: #0a66c2;
+}
+
+.btn.linkedin:hover {
+  background-color: #004182;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 2rem 0;
+  border-top: 1px solid #ccc;
+  background: #fafafa;
+}

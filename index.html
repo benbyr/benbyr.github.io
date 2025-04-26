@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Byrne Works Limited</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/images/logo.png" alt="Byrne Works Logo" class="logo" />
+  </header>
+
+  <main>
+    <div class="avatar-frame">
+      <img src="assets/images/avatar.png" alt="Cartoon of Ben Byrne" class="avatar-cropped" />
+    </div>
+    <h1>Ben Byrne</h1>
+    <p class="title">Head of Systems/SRE & Data Privacy Officer</p>
+
+    <p class="bio">
+      I'm a systems and infrastructure leader focused on building secure, resilient platforms. As a <strong>Co-founder</strong>, Head of Systems and Data Privacy Officer at Uptime.com, I ensure we operate seamlessly 24/7/365.  
+      With deep experience in compliance (SOC 2, GDPR), security, and cloud architecture, I solve hard problems at scale — from distributed monitoring to data residency and access governance.  
+      I'm also the founder of <strong>Byrne Works Limited</strong>, a Jersey-registered tech consultancy.
+    </p>
+
+    <div class="social-buttons">
+      <a href="mailto:" class="btn email">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+      <a href="cv.pdf" class="btn cv" target="_blank">
+        <i class="fas fa-file-alt"></i> CV
+      </a>
+      <a href="https://github.com/benbyr" target="_blank" class="btn github">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/benbyr" target="_blank" class="btn linkedin">
+        <i class="fab fa-linkedin-in"></i> LinkedIn
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Jersey Registered Company No: 159528</p>
+    <p>&copy; <span id="year"></span> Byrne Works Limited. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
